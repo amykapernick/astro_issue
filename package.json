@@ -1,0 +1,18 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev --verbose --reload",
+    "build": "astro build --verbose --reload",
+    "preview": "astro preview",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "astro": "^1.0.0-beta.27",
+    "eslint-config-standard": "^17.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "vite-plugin-eslint": "^1.6.0"
+  }
+}
